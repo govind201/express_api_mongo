@@ -9,7 +9,7 @@ const users = require('./routes/users');
 const places = require('./routes/places');
 const confirm = require('./routes/confirm');
 const auth = require('./routes/auth');
-const winston = require('winston-mongodb').MongoDB;
+const winston = require('winston-mongodb').MongoDB; // For more user friendly error messages in mongodb. 
 const app = express();
 
 if (!config.has('jwtPrivateKey')) {
