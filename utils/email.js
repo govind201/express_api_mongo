@@ -13,7 +13,7 @@ const transporter = nodemailer.createTransport({
 
 const mailOptions = {
   from: 'bletsBlets',
-  to: 'gs5818475@gmail.com',
+  to: 'bletsblets9@gmail.com',
   subject: 'NodeMailer thing',
   html: `<p>Verfication email from nodemailer</P>`,
 };
